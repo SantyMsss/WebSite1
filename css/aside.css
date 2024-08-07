@@ -1,0 +1,79 @@
+
+/*STYLES DE ASIDE*/
+
+aside{
+    float: left;
+    margin-top: 25px;
+    padding: 25px 10px 35px 10px;
+    background-color: white;
+    width: 20%;
+    border-style: solid 100px 10px 10px 10px;
+    box-shadow: 2px 2px 5px 5px var(--gray-color);
+    
+}
+
+aside input{
+    
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    border: 3px ridge  var(--gray-color);
+
+}
+
+aside input[type="submit"]{
+
+    background-color: var(--primary-color);
+    margin: 0px 10px 30px 10px;
+    padding: 5px 60px 5px 58px;
+    color: var(--gray-color);
+    text-transform: uppercase;
+    
+}
+
+.widget > ul{
+    padding-left: 20px;
+    font-size: 13px;
+    color: var(--gray-color-dark);
+    margin-bottom: 30px;
+    
+  
+}
+
+.widget > ul > li {
+    list-style: circle;
+    margin: 5px 10px 5px 10px;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    
+}
+
+
+
+.widget > ul > li > a{
+    color: var(--primary-color);
+    
+}
+
+.widget > ul > li > a:hover{
+    color: var(--secondary-color);
+}
+
+
+
+aside h3{
+    text-align: center;
+    color: white;
+    background-color: var(--secondary-color);
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+aside blockquote{
+    text-align: left;
+    margin: 5px 10px 5px 10px;
+    font-size: small;
+    font-style: italic;
+}
+

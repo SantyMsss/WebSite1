@@ -1,0 +1,41 @@
+body {
+    font-family: "NunitoSans-Regular", Arial, Helvetica, sans-serif;
+    background-image: url("../img/bg-pattern.png");
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*STYLES PARA EL FOOTER*/
+footer{
+    clear: both;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(57, 55, 55);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+footer a{
+    color: aliceblue;
+}
+
+footer a:hover{
+    color: rgb(201, 94, 94);
+}

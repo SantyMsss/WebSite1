@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    font-family: "NunitoSans-Bold", Arial, Helvetica, sans-serif;
+}
+
+header img {
+    width: 150px;  
+    margin-top: 10px;  
+}
+
+header h1{
+    color: var(--primary-color);
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 5px var(--gray-color);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+header legend{
+    color: var(--gray-color-dark);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+

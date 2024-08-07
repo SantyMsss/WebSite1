@@ -1,0 +1,85 @@
+#main-menu {
+    float: left;
+    width: 100%;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+#main-menu > ul > li {
+    float: left;
+    margin: 10px 0;
+    
+    
+}
+
+#main-menu > ul > li > a {
+    padding: 10px 20px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#main-menu > ul > li > a:hover {
+    background-color: var(--primary-color-dark);
+    color: aqua;
+}
+
+#main-menu > ul > li > ul {
+    display: none;
+}
+
+#main-menu > ul > li:hover > ul {
+    display: block;
+    position: absolute;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    margin-top: 7px;
+    border-style: solid;
+    border-color: aqua;
+    
+}
+
+
+#main-menu > ul > li > ul:hover  {
+    display: block;
+    position: absolute;
+    background-color: var(--primary-color);
+    margin-top: 10px;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    
+}
+
+#main-menu > ul > li > ul > a :hover  {
+    display: block;
+    position: absolute;
+    background-color: var(--primary-color);
+    margin-top: 15px;
+    border-style: solid;
+    border-color: var(--secondary-color);
+ 
+    
+    
+}
+
+
+
+#main-menu a{
+    color: white;
+
+    
+}
+
+#main-menu ul > li > ul > li > a{
+    color: white;
+    font-size: 13px;
+    
+    
+}
+
+#main-menu ul > li > ul > li > a:hover{
+    color: var(--secondary-color);
+    
+    
+}
+
